@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website</title>
+    </head>  
+    <body>
+        Dashboard
+        <a href="dashboard.html" target="_blank">Dashboard</a>
+
+        <!--heading section-->
+        <h1>Saif Siddiqui</h1>
+        <h2>Saif Siddiqui</h2>
+        <h3>Saif Siddiqui</h3>
+        <h4>Saif Siddiqui</h4>
+        <h5>Saif Siddiqui</h5>
+        <h6>Saif Siddiqui</h6>
+
+        <!--paragrapgh section-->
+        <p>
+            I am <em>18 years old</em> and study at <strong><a href="https://www.ucl.ac.uk/" target="_blank">UCL </a></strong> <!--<strong> makes text bold & <em> makes text italics-->
+                <!--<a href=""> makes whatever text you put inside it a link. target="_blank" opens up a new tab instead o opening page on same tab-->
+        </p>
+
+        <!--List-->
+        <ul>
+            <li>item 1</li> 
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+ <br> <!--break-->
+        <ol>
+            <li>item 1</li> 
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li> 
+        </ol>
+
+        <!--Table-->
+        <table>
+            <thead>
+                <tr> <!--Table row-->
+                    <th>Name</th> <!-- Table heading-->
+                    <th>Email</th>
+                    <th>Age</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Saif Siddiqui</td> <!--Table data-->
+                    <td>saif9siddiqui@gmail.com</td>
+                    <td>18</td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+<hr> <!--horizontal rule (gives line on page to seperate)-->
+<br>
+        <!--Forms-->
+        <form action="">
+            <label>First Name</label>
+            <input type="text"> <!--type is an attribute, it can be varied. In this case it is a text input (could also be integer for eg)-->
+<br>
+<br>
+            <label>Last Name</label>
+            <input type="text">
+<br>
+<br>
+            <label>Email</label>
+            <input type="email"> <!--Using type email instead of text gives more validation i.e. you submit form with incorrect email address, it will come uo with an error-->
+<br>
+<br>
+            <label>Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea> <!--textarea gives you a box to write text in-->
+<br>
+<br>
+            <label>Gender</label>
+            <select name="gender"> <!--select function allows you to select different options in a drop box-->
+                <option value="male">Male</option> <!--different options in a dropbox-->
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+<br>
+<br>
+            <label>Age</label>
+            <input type="number" name="age" value="30"> <!--added a predefined value of 30 (thats what will automatically show up)-->
+<br>
+<br>
+            <label>Birthday</label> 
+            <input type="date" name="birthday" <!-- using date allows you to choose a date-->
+<br>
+<br>
+            <input type="submit" name="submit" 
+            value="Submit">
+<br>
+<br>
+            <!--Images-->
+            <img src="sample.png" alt=""> <!--we saved an image from google into the same folder and called it "sample.png" which is what we put as the source-->
+        </form>
+    </body>
+</html>
